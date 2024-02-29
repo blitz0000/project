@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  #property-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  #property-gallery img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  #add-property {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
